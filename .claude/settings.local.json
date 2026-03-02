@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(bash)",
+      "Bash(apt-get install:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(export:*)",
+      "Bash([ -s \"$NVM_DIR/nvm.sh\" ])",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Bash(nvm:*)",
+      "Bash(source:*)",
+      "Bash(npm config set:*)",
+      "Bash(xargs:*)",
+      "Bash(node -e \"require\\(''./node_modules/next/package.json''\\)\")",
+      "Bash(node -e \"require\\(''./node_modules/@anthropic-ai/sdk/package.json''\\)\")",
+      "Bash(node -e \"require\\(''./node_modules/stripe/package.json''\\)\")",
+      "Bash(node -e \"require\\(''./node_modules/framer-motion/package.json''\\)\")",
+      "Bash(node -e \"require\\(''./node_modules/lucide-react/package.json''\\)\")"
+    ]
+  }
+}
